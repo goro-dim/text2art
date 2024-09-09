@@ -55,7 +55,7 @@ pipe = pipe.to("cuda")
  
 <pre><code class="language-python">
 # Define your text prompt
-prompt = "A beautiful landscape with mountains, a river, and a sunset in the background."
+prompt = "Generate in high resolution, a beautiful landscape with mountains, a river, and a sunset in the background."
 
 # Generate the image
 image = pipe(prompt).images[0]
