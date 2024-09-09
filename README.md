@@ -64,7 +64,7 @@ image = pipe(prompt).images[0]
 display(image)
 </code></pre>
 
-  <h3>Step 6: Save Your Image</h3>
+  <h3>(Optional)Step 6: Save Your Image</h3>
     <p>To save your image directly in Google Colab, use:</p>
     <pre><code class="language-python">
 # Save the image locally
